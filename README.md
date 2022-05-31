@@ -10,3 +10,9 @@ Read the full paper [here]()
 <img src="img/DPMS.png"></img>
 </div>
 <br />
+
+#### Code Instructions: 
+#### Environment 
+Python3.6
+torch1.9.0+rocm4.2
+We used pipreqs to generate the requirements.txt, thus we have the minimal packages needed.
