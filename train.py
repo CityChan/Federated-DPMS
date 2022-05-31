@@ -40,7 +40,7 @@ import argparse
 from utils import Accuracy,GenData,ConcatDataset,getLocalMeans_global,getLocalMeans, getLocalMean, reparameterize,save_decoded_image, LocalGenerate,DatasetSplit
 from models import CIFAR_CNN,CIFAR_VAE,FMNIST_CNN,FMNIST_VAE
 from sampling import LocalDataset, LocalDataloaders, average_weights,partition_data,partition_data_FMNIST, partition_data_cifar100, LocalDataloaders_sample,partition_data
-from Localupdate_VAE import LocalUpdate
+from Localupdate import LocalUpdate
 
 
 
