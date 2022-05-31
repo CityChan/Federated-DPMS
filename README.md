@@ -13,6 +13,6 @@ Read the full paper [here]()
 
 #### Code Instructions: 
 #### Environment 
-Python3.6
-torch1.9.0+rocm4.2
-We used pipreqs to generate the requirements.txt, thus we have the minimal packages needed.
+Python3.6  
+torch1.9.0+rocm4.2  
+We used pipreqs to generate the requirements.txt, thus we have the minimal packages needed.  
