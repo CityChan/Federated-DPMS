@@ -55,11 +55,12 @@ We mainly use a .sh files to execute multiple expriements in parallel.
 The exprimenets are saved in checkpoint with unique id. Also, when the dataset is downloaded for the first time it takes a while. 
 
 example: 
-(1)for training a DPMS model 
+(1) for training a DPMS model   
 ``
 python3 train.py --dataset 'CIFAR100' --batch_size 64 --lr 0.001 --num_epochs 50 --dropout_rate 0.2 --tag 'federated' --num_users 10 --update_frac 1 --local_ep 5 --beta 0.5 --seed 0 --mini 1 --pretrain 20 --gen_num 50 --std 4 --code_len 128 --alg 'DPMS' --vae_mu 0.05
 ``
-(2)for test the trained and saved model 
+
+(2) for test the trained and saved model   
 ``
 python3 train.py --dataset 'CIFAR100' --batch_size 64 --lr 0.001 --num_epochs 50 --dropout_rate 0.2 --tag 'federated' --num_users 10 --update_frac 1 --local_ep 5 --beta 0.5 --seed 0 --mini 1 --pretrain 20 --gen_num 50 --std 4 --code_len 128 --alg 'DPMS' --vae_mu 0.05 --eval_only
 ``
