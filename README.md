@@ -67,3 +67,29 @@ python3 train.py --dataset 'CIFAR100' --batch_size 64 --lr 0.001 --num_epochs 50
 ```
 
 You can explore the different .sh files in the 'scripts' folder for more examples.
+
+####  Visualization of experiment results
+<div align='center'>
+<img src="img/accuracy_fmnist.png"></img>
+</div>
+<br />
+<div align='center'>
+<img src="img/accuracy_cifar10.png"></img>
+</div>
+<br />
+<div align='center'>
+<img src="img/accuracy_cifar100.png"></img>
+</div>
+<br />
+<div align='center'>
+<img src="img/fmnist_acc.png"></img>
+</div>
+<br />
+<div align='center'>
+<img src="img/cifar10_acc.png"></img>
+</div>
+<br />
+<div align='center'>
+<img src="img/fmnist_acc.png"></img>
+</div>
+<br />
