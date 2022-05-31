@@ -1,5 +1,5 @@
 # Federated Learning in Non-IID Settings Aided by Differentially Private Synthetic Data Code Instruction
-### Huancheng Chen, Haris Vikalo Wang
+### Huancheng Chen, Haris Vikalo
 #### The University of Texas at Austin
 #### *arXiv preprint
 
