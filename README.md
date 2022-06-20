@@ -4,7 +4,7 @@
 #### *arXiv preprint
 
 ## Code for: "Federated Learning in Non-IID Settings Aided by Differentially Private Synthetic Data"
-Read the full paper [here]()
+Read the full paper [here](https://arxiv.org/abs/2206.00686)
 
 <div align='center'>
 <img src="img/DPMS.png"></img>
