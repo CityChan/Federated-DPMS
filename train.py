@@ -392,8 +392,10 @@ if not args.eval_only:
                     
                     
                     
-            local_weights.append(copy.deepcopy(w))
-            local_losses.append(copy.deepcopy(loss))
+                local_weights.append(copy.deepcopy(w))
+                local_losses.append(copy.deepcopy(loss))
+            
+            Local_Weights.append(local_weights)
 
             # update global weights
             global_weights = average_weights(local_weights)
