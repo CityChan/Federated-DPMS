@@ -3,7 +3,7 @@
 #### The University of Texas at Austin
 #### *arXiv preprint
 
-## Code for: "Federated Learning in Non-IID Settings Aided by Differentially Private Synthetic Data"
+## Code for: "Federated Learning in Non-IID Settings Aided by Differentially Private Synthetic Data" CVPR2023 FLCV workshop
 Read the full paper [here](https://arxiv.org/abs/2206.00686)
 
 <div align='center'>
