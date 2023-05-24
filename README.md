@@ -98,4 +98,10 @@ You can explore the different .sh files in the 'scripts' folder for more example
 We appreciate your citation if you use this codebase.
 
 ```
+@article{chen2022federated,
+  title={Federated Learning in Non-IID Settings Aided by Differentially Private Synthetic Data},
+  author={Chen, Huancheng and Vikalo, Haris},
+  journal={arXiv preprint arXiv:2206.00686},
+  year={2022}
+}
 ```
