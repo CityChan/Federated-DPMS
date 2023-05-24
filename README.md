@@ -1,9 +1,9 @@
 # Federated Learning in Non-IID Settings Aided by Differentially Private Synthetic Data Code Instruction
 ### Huancheng Chen, Haris Vikalo
 #### The University of Texas at Austin
-#### *arXiv preprint
+#### *To appear in CVPR 2023, Federated Learning in Computer Vision Workshop
 
-## Code for: "Federated Learning in Non-IID Settings Aided by Differentially Private Synthetic Data" CVPR2023 FLCV workshop
+## Code for: "Federated Learning in Non-IID Settings Aided by Differentially Private Synthetic Data" 
 Read the full paper [here](https://arxiv.org/abs/2206.00686)
 
 <div align='center'>
@@ -93,3 +93,9 @@ You can explore the different .sh files in the 'scripts' folder for more example
 <img src="img/fmnist_acc.png"></img>
 </div>
 <br />
+
+#### Citation
+We appreciate your citation if you use this codebase.
+
+```
+```
