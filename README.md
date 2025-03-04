@@ -11,8 +11,8 @@ This is an official repository for our CVPR2023 workshop paper
 ### Environment 
 This project is developed based on python 3.6 with [torch1.9 (rocm4.2)](https://pytorch.org/get-started/previous-versions/). We use [conda](https://www.anaconda.com/docs/main) to manage the virtual environment.
 ```
-git clone git@github.com:CityChan/Federated-Hyper-Knowledge-Distillation.git
-cd Federated-Hyper-Knowledge-Distillation
+git clone git@github.com:CityChan/Federated-DPMS.git
+cd Federated-DPMS
 conda create -n fedhkd --python=3.6
 conda activate fedhkd
 pip install torch==1.9.1+rocm4.2 torchvision==0.10.1+rocm4.2 torchaudio==0.9.1 -f https://download.pytorch.org/whl/torch_stable.html
