@@ -3,13 +3,21 @@ This is an official repository for our CVPR2023 workshop paper
 * "[The Best of Both Worlds Accurate Global and Personalized Models through Federated Learning with Data-Free Hyper-Knowledge Distillation](https://citychan.github.io/assets/publications/2023_cvpr/paper.pdf)"
 
 
-## Code for: "Federated Learning in Non-IID Settings Aided by Differentially Private Synthetic Data" 
-Read the full paper [here](https://arxiv.org/abs/2206.00686)
-
 <div align='center'>
 <img src="img/DPMS.png"></img>
 </div>
 <br />
+
+### Environment 
+This project is developed based on python 3.6 with [torch1.9 (rocm4.2)](https://pytorch.org/get-started/previous-versions/). We use [conda](https://www.anaconda.com/docs/main) to manage the virtual environment.
+```
+git clone git@github.com:CityChan/Federated-Hyper-Knowledge-Distillation.git
+cd Federated-Hyper-Knowledge-Distillation
+conda create -n fedhkd --python=3.6
+conda activate fedhkd
+pip install torch==1.9.1+rocm4.2 torchvision==0.10.1+rocm4.2 torchaudio==0.9.1 -f https://download.pytorch.org/whl/torch_stable.html
+pip install -r requirements.txt
+```
 
 #### Code Instructions: 
 #### Environment 
