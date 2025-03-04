@@ -1,7 +1,7 @@
-# Federated Learning in Non-IID Settings Aided by Differentially Private Synthetic Data Code Instruction
-### Huancheng Chen, Haris Vikalo
-#### The University of Texas at Austin
-#### *To appear in CVPR 2023, Federated Learning in Computer Vision Workshop
+# Federated Hyper Knowledge Distillation
+This is an official repository for our CVPR2023 workshop paper
+* "[The Best of Both Worlds Accurate Global and Personalized Models through Federated Learning with Data-Free Hyper-Knowledge Distillation](https://citychan.github.io/assets/publications/2023_cvpr/paper.pdf)"
+
 
 ## Code for: "Federated Learning in Non-IID Settings Aided by Differentially Private Synthetic Data" 
 Read the full paper [here](https://arxiv.org/abs/2206.00686)
