@@ -1,6 +1,6 @@
 # Federated Learning in Non-IID Settings Aided by Differentially Private Synthetic Data
 This is an official repository for our CVPR2023 workshop paper
-* "Federated Learning in Non-IID Settings Aided by Differentially Private Synthetic Data](https://citychan.github.io/assets/publications/2023_cvpr/paper.pdf)"
+* "[Federated Learning in Non-IID Settings Aided by Differentially Private Synthetic Data](https://citychan.github.io/assets/publications/2023_cvpr/paper.pdf)"
 
 
 <figure>
