@@ -1,12 +1,20 @@
-# Federated Hyper Knowledge Distillation
+# Federated Learning in Non-IID Settings Aided by Differentially Private Synthetic Data
 This is an official repository for our CVPR2023 workshop paper
-* "[The Best of Both Worlds Accurate Global and Personalized Models through Federated Learning with Data-Free Hyper-Knowledge Distillation](https://citychan.github.io/assets/publications/2023_cvpr/paper.pdf)"
+* "Federated Learning in Non-IID Settings Aided by Differentially Private Synthetic Data](https://citychan.github.io/assets/publications/2023_cvpr/paper.pdf)"
 
 
-<div align='center'>
-<img src="img/DPMS.png"></img>
-</div>
-<br />
+<figure>
+  <p align="center">
+  <img src="img/DPMS.png" width=90% align="center" alt="my alt text"/>
+  </p>
+  <figcaption width=80%><em>
+  FedDPMS and synthetic data generation. The four parts of the figure depict: (1) finding latent representation of raw data via a local encoder; (2) creating noisy latent means (by adding Gaussian noise to the means of latent data representations) and filtering out unusable ones with the help of a local classifier; (3) uploading usable noisy latent means to the server; (4) a benefiting client utilizing the global decoder to generate synthetic data from the received noisy latent means, expanding its local dataset.
+  </em></figcaption>
+</figure>
+<br/>
+<br/>
+
+
 
 ### Environment 
 This project is developed based on python 3.6 with [torch1.9 (rocm4.2)](https://pytorch.org/get-started/previous-versions/). We use [conda](https://www.anaconda.com/docs/main) to manage the virtual environment.
