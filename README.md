@@ -21,24 +21,18 @@ This project is developed based on python 3.6 with [torch1.9 (rocm4.2)](https://
 ```
 git clone git@github.com:CityChan/Federated-DPMS.git
 cd Federated-DPMS
-conda create -n fedhkd --python=3.6
-conda activate fedhkd
+conda create -n dpms --python=3.6
+conda activate dpms
 pip install torch==1.9.1+rocm4.2 torchvision==0.10.1+rocm4.2 torchaudio==0.9.1 -f https://download.pytorch.org/whl/torch_stable.html
 pip install -r requirements.txt
 ```
 
-#### Code Instructions: 
-#### Environment 
-Python3.6  
-
-We used pipreqs to generate the requirements.txt, thus we have the minimal packages needed.  
-
-#### Code structure 
-* train.py //For training and evaluating the model 
-* models.py //Our VAEs model for FMNIST, CIFAR10/100
-* sampling.py // functions that generate non-iid datasets for federated learning
-* util.py // define functions that compute accuracy synthesize images and other general functions
-* Localupdate.py // define functions for locally updating models with FedAvg, FedProx, Moon, FedMix and FedDPMS
+### Code structure 
+* `train.py`: general setup for training and evaluation
+* `models.py`: model architectures for running experiments
+* `sampling.py`: functions for generating non-iid datasets for federated learning
+* `util.py`: functions for computing accuracy, knowledge distillation and model aggregation
+* `Localupdate.py`: define functions for locally updating models with FedAvg, FedProx, Moon, FedMix and FedDPMS
 
 #### Parameters
 * --dataset: 'CIFAR10', 'CIFAR100', 'FMNIST'
